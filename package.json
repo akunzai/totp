@@ -1,0 +1,24 @@
+{
+  "author": "Charley Wu <akunzai@gmail.com>",
+  "name": "totp",
+  "description": "TypeScript One Time Password Library (HOTP,TOTP,Google Authenticator)",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akunzai/totp.git"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "thirty-two": "0.0.2",
+    "uid-safe": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.1.0",
+    "gulp-typescript": "^2.9.2"
+  },
+  "license": "MIT"
+}
